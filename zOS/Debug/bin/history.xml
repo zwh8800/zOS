@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=zOS.map -O0 --gc-sections -LF:\CooCox\CoIDE\configuration\ProgramData\zOS -TF:\CooCox\CoIDE\configuration\ProgramData\zOS/arm-gcc-link.ld -g">
+      <target file="zOS.elf" lastModified="1455021aa0b">
+         <source file="..\obj\init_device.o" lastModified="1454fd779fe"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1454fd77af7"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="1454fd77b8f"/>
+         <source file="..\obj\kdebug.o" lastModified="1454fd77dfe"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1454fd77ea6"/>
+         <source file="..\obj\init.o" lastModified="1455021a689"/>
+         <source file="..\obj\proc_list.o" lastModified="1454fd7805c"/>
+         <source file="..\obj\system_exception.o" lastModified="1454fd78107"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1454fd781bb"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1454fd7827c"/>
+         <source file="..\obj\pend_sv_handler.o" lastModified="1454fd782b6"/>
+         <source file="..\obj\zImage.o" lastModified="1454fd78344"/>
+         <source file="..\obj\schedule.o" lastModified="1454fd783f5"/>
+         <source file="..\obj\pend_sv.o" lastModified="1454fd78474"/>
+         <source file="..\obj\syscalls.o" lastModified="1454fec20d1"/>
+         <source file="..\obj\misc.o" lastModified="1454fd785d7"/>
+         <source file="..\obj\test_newlib.o" lastModified="1455021a716"/>
+         <source file="..\obj\test_schedule.o" lastModified="1454fd7867f"/>
+      </target>
+   </processor>
+</history>

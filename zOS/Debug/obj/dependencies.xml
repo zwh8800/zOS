@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\zOS\zOS\stm_lib\inc /I..\..\..\..\..\zOS\zOS\stm_lib /I..\..\..\..\..\zOS\zOS\cmsis_boot /I..\..\..\..\..\zOS\zOS\cmsis /I..\..\..\..\..\zOS /I..\..\..\..\..\zOS\zOS /I..\..\..\..\..">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="14549fb4e08">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="14549fb5205">
+      </source>
+      <source file="..\..\..\test_schedule.c" lastModified="1454fd76c79">
+         <include file="..\..\..\schedule.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\kdebug.h" lastModified="14549fb48ed">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1454b61b46b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14549fb4a21">
+      </source>
+      <source file="..\..\..\proc_list.c" lastModified="14549fb4cd6">
+         <include file="..\..\..\kdebug.h"/>
+         <include file="..\..\..\schedule.h"/>
+         <include file="..\..\..\assert.h"/>
+      </source>
+      <source file="..\..\..\kdebug.c" lastModified="14549fb54a4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\kdebug.h"/>
+      </source>
+      <source file="..\..\..\pend_sv.c" lastModified="14549fb4cd5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\kdebug.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14549fb49df">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\system_exception.h" lastModified="14549fb48f9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14549fb49ea">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14549fb49f2">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="14549fb4e1c">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\system_exception.c" lastModified="1454eb34671">
+         <include file="..\..\..\system_exception.h"/>
+         <include file="..\..\..\kdebug.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\pend_sv_handler.s" lastModified="1454eb75aca">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14549fb49db">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\assert.h" lastModified="14549fb48eb">
+         <include file="..\..\..\kdebug.h"/>
+         <include file="..\..\..\assert.h"/>
+      </source>
+      <source file="..\..\..\zImage.h" lastModified="14549fb50df">
+      </source>
+      <source file="..\..\..\init_device.h" lastModified="14549fb48ec">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1454febd0ee">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14549fb49e2">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\zImage.c" lastModified="14549fb54c6">
+         <include file="..\..\..\zImage.h"/>
+      </source>
+      <source file="..\..\..\init_device.c" lastModified="14549fb48ec">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\kdebug.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14549fb5205">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14549fb49e3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14549fb4a33">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14549fb4a33">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\schedule.h" lastModified="1454a71efea">
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14549fb49e6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14549fb4a08">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\schedule.c" lastModified="1454ec9caf1">
+         <include file="..\..\..\schedule.h"/>
+         <include file="..\..\..\assert.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\stm32\zOS\zOS\cmsis /I..\..\..\..\..\stm32\zOS /I..\..\..\..\..\stm32\zOS\zOS\stm_lib\inc /I..\..\..\..\..\stm32\zOS\zOS\stm_lib /I..\..\..\..\..\stm32\zOS\zOS /I..\..\..\..\..\stm32 /I..\..\..\..\..\stm32\zOS\zOS\cmsis_boot">
+      <source file="..\..\..\kdebug.h" lastModified="14549fb48ed">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1454b61b46b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="14549fb4a21">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14549fb49df">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\system_exception.h" lastModified="14549fb48f9">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="14549fb49ea">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="14549fb49f2">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\system_exception.c" lastModified="1454eb34671">
+         <include file="..\..\..\system_exception.h"/>
+         <include file="..\..\..\kdebug.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\pend_sv_handler.s" lastModified="1454eb75aca">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="14549fb49db">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\assert.h" lastModified="14549fb48eb">
+         <include file="..\..\..\kdebug.h"/>
+         <include file="..\..\..\assert.h"/>
+      </source>
+      <source file="..\..\..\init_device.h" lastModified="14549fb48ec">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14549fb49e2">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\init_device.c" lastModified="14549fb48ec">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\kdebug.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14549fb49e3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="14549fb4a33">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14549fb4a33">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="14549fb49e6">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14549fb4a08">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

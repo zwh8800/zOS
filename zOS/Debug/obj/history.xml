@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\zOS\zOS\stm_lib\inc -I..\..\..\..\..\zOS\zOS\stm_lib -I..\..\..\..\..\zOS\zOS\cmsis_boot -I..\..\..\..\..\zOS\zOS\cmsis -I..\..\..\..\..\zOS -I..\..\..\..\..\zOS\zOS -I..\..\..\..\..">
+      <target file="stm32f10x_rcc.o" lastModified="1454fd781bb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14549fb49e2"/>
+      </target>
+      <target file="pend_sv_handler.o" lastModified="1454fd782b6">
+         <source file="..\..\..\pend_sv_handler.s" lastModified="1454eb75aca"/>
+      </target>
+      <target file="schedule.o" lastModified="1454fd783f5">
+         <source file="..\..\..\schedule.c" lastModified="1454ec9c321"/>
+      </target>
+      <target file="misc.o" lastModified="1454fd785d7">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14549fb49db"/>
+      </target>
+      <target file="test_schedule.o" lastModified="1454fd7867f">
+         <source file="..\..\..\test_schedule.c" lastModified="1454fd76c79"/>
+      </target>
+      <target file="proc_list.o" lastModified="1454fd7805c">
+         <source file="..\..\..\proc_list.c" lastModified="14549fb48ee"/>
+      </target>
+      <target file="zImage.o" lastModified="1454fd78344">
+         <source file="..\..\..\zImage.c" lastModified="14549fb490e"/>
+      </target>
+      <target file="init_device.o" lastModified="1454fd779fe">
+         <source file="..\..\..\init_device.c" lastModified="14549fb48ec"/>
+      </target>
+      <target file="system_exception.o" lastModified="1454fd78107">
+         <source file="..\..\..\system_exception.c" lastModified="1454eb34671"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1454fd77ea6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14549fb49df"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1454fd77af7">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14549fb4a33"/>
+      </target>
+      <target file="pend_sv.o" lastModified="1454fd78474">
+         <source file="..\..\..\pend_sv.c" lastModified="14549fb48ed"/>
+      </target>
+      <target file="syscalls.o" lastModified="1454fec20d1">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1454febbd66"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="1454fd77b8f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1454b61b46b"/>
+      </target>
+      <target file="init.o" lastModified="1455021a689">
+         <source file="..\..\..\init.c" lastModified="1455021a1aa"/>
+      </target>
+      <target file="test_newlib.o" lastModified="1455021a716">
+         <source file="..\..\..\test_newlib.c" lastModified="145502167f1"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1454fd7827c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14549fb49e3"/>
+      </target>
+      <target file="kdebug.o" lastModified="1454fd77dfe">
+         <source file="..\..\..\kdebug.c" lastModified="14549fb48ec"/>
+      </target>
+   </processor>
+</history>
